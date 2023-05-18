@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/Yvaine2251/SpringCloud.git
           searchPaths: config
-          username: root
-          password: root
+          username: Yvaine2251
+          password: a3879080
       label: master
 eureka:
   client:
