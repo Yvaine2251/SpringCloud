@@ -15,6 +15,7 @@
         <module name="hystrix" />
         <module name="ribbon" />
         <module name="restTemplate" />
+        <module name="configServer" />
         <module name="nativeConfigServer" />
         <module name="eurekaServer" />
       </profile>
@@ -23,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringCloud" options="-parameters" />
+      <module name="configServer" options="-parameters" />
       <module name="eurekaClient" options="-parameters" />
       <module name="eurekaConsumer" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
